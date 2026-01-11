@@ -1,0 +1,19 @@
+@echo off
+echo ========================================
+echo 🚀 College Event Management Setup
+echo ========================================
+
+echo 📦 Creating virtual environment...
+python -m venv venv
+
+echo 🔧 Activating virtual environment...
+call venv\Scripts\activate.bat
+
+echo 📥 Installing dependencies...
+pip install -r requirements.txt
+
+echo ✅ Setup complete!
+echo 🎯 To start the system: python app.py
+echo 🔑 Admin login: admin / admin123
+
+pause
